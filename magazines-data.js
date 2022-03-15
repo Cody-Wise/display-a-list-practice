@@ -10,7 +10,7 @@ export const magazines = [{
     name: 'Sports Illustrated',
     first_published: 'August 16, 1954',
     reach: '23,000,000',
-    language: 'Emglish'
+    language: 'English'
 
 
 },

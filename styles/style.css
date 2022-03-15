@@ -114,7 +114,18 @@ footer {
 
   .magazines-container{
       display: flex;
+      margin-bottom:50px;
   }
+
+  .star-wars-container{
+        display: flex
+       
+        
+  }
+
+  /* .star-wars{
+      display: flex;
+  } */
 
   .bold
 {
