@@ -111,3 +111,16 @@ footer {
     }
 
   }
+
+  .magazines-container{
+      display: flex;
+  }
+
+  .bold
+{
+    font-weight:bold;
+}
+
+b{
+    font-weight:bold; 
+}
