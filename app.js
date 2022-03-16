@@ -12,14 +12,6 @@ import { renderBooks } from './harry-potter-render-books.js';
 const chessContainerEl = document.querySelector('.chesspieces');
 
 
-// const chessPieceListEl = document.querySelector('.chesspieces');
-
-// for (let chessPiece of chessPieces) {
-//     const chessPieceEl = renderChessPieces(chessPiece);
-
-//     chessPieceListEl.append(chessPieceEl);
-// }
-
 const chessEl = renderChessPieces(chessPieces);
 
 chessContainerEl.append(chessEl);
