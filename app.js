@@ -6,6 +6,8 @@ import { magazines } from './magazines-data.js';
 import { renderMagazines } from './render-magazines.js';
 import { starWars } from './star-wars-data.js';
 import { renderStarWars } from './render-star-wars.js';
+import { books } from './harry-potter-books-data.js';
+import { renderBooks } from './harry-potter-render-books.js';
 
 const chessContainerEl = document.querySelector('.chesspieces');
 
@@ -47,4 +49,13 @@ for (let hero of starWars){
     starWarsContainerEl.append(starWarsEl);
 }
 
+const harryPotterContainerEl = document.querySelector('.harry-potter-container');
+
+for (let book of books){
+
+
+    const harryPotterEl = renderBooks(book);
+
+    harryPotterContainerEl.append(harryPotterEl);
+}
 
