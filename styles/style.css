@@ -111,3 +111,37 @@ footer {
     }
 
   }
+
+  .magazines-container{
+      display: flex;
+      margin-bottom:50px;
+  }
+
+  .star-wars-container{
+        display: flex
+       
+        
+  }
+
+  /* .star-wars{
+      display: flex;
+  } */
+
+  .bold
+{
+    font-weight:bold;
+}
+
+b{
+    font-weight:bold; 
+}
+
+.harry-potter-container{
+    display: flex;
+    
+}
+
+h3{
+    margin-left: 25px;
+    margin-right: 25px;
+}
