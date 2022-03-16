@@ -135,3 +135,13 @@ footer {
 b{
     font-weight:bold; 
 }
+
+.harry-potter-container{
+    display: flex;
+    
+}
+
+h3{
+    margin-left: 25px;
+    margin-right: 25px;
+}
